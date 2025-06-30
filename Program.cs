@@ -14,7 +14,15 @@ namespace ConsoleProjectForGit
             c = a + b;
             Console.WriteLine("add="+c);
         }
-            
+
+        public void sub()
+        {
+            int a = 10, b = 10, c;
+            c = a - b;
+            Console.WriteLine("Sub=" + c);
+        }
+
+
         static void Main(string[] args)
         {
             Program program = new Program();
