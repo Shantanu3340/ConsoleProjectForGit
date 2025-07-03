@@ -21,6 +21,13 @@ namespace ConsoleProjectForGit
             c = a - b;
             Console.WriteLine("Sub=" + c);
         }
+        public void div()
+        {
+            int a = 10, b = 10, c;
+            c = a / b;
+            Console.WriteLine("div=" + c);
+        }
+
 
 
         static void Main(string[] args)
