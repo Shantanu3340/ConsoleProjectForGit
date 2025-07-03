@@ -27,6 +27,12 @@ namespace ConsoleProjectForGit
             c = a / b;
             Console.WriteLine("div=" + c);
         }
+        public void multiply()
+        {
+            int a = 10, b = 10, c;
+            c = a * b;
+            Console.WriteLine("mul=" + c);
+        }
 
 
 
